@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <title>Email Newsletter</title>
+    <style>
+        * {
+   font-family: Comic Sans MS;
+   box-sizing: border-box;
+}
+
+h1 {
+    color:#795695;
+    font-size:3em;
+}
+
+h2 {
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size:1.2em;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 40vw;
+  }
+
+  .title-img {
+    width: 30vw;
+    height: 30vh;
+  }
+
+ .footer-img {
+    width:90vw;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .flex-item-left {
+    padding: 10px;
+    flex: 50%;
+  }
+  
+  .flex-item-right {
+    padding: 10px;
+    flex: 50%;
+  }
+  
+  /* Responsive layout - makes a one column-layout instead of two-column layout */
+  @media (max-width: 800px) {
+    .flex-container {
+      flex-direction: row;
+    }
+  }
+
+.header {
+    background-color: #c1afc9;
+    padding: 1%;
+    margin:2%;
+    border-radius: 30px;
+}
+
+.main  {
+    background-color:#520160;
+    color:whitesmoke;
+    padding:2%;
+    border-radius: 20px;
+}
+    </style>
+</head>
+<body>
+    <p>Email not displaying correctly? View it in your browser.</p>
+    <div class="header">
+        <span>
+            <h1>San Antonio Food Bank</h1>
+            <img class = "title-img" src="images/community.jpg" width="10vh" alt="community" /> 
+        </span>
+    </div>
+   <div class="main">
+    <div class="flex-container">
+        <img class="flex-item-left" src="images/box.png" alt="grocery box"/>
+        <img class="flex-item-right" src="images/spices.png" alt="Pasta and Sauces"/>
+    </div>
+    <h2>
+     Who is SAFB? What do they do for our community? How can you help make a difference? 
+    </h2>
+    <p>
+        SAFB is San Antonio’s local food bank, The mission of the San Antonio Food Bank is to fight hunger in Southwest Texas through food distribution, programs, education, and advocacy. The SAFB serves 90,000 individuals each week with 74,000,000 meals distributed annually. If you are interested in getting involved donations are always accepted at any of the local drop locations, and volunteers are always needed. 
+    </p>
+  
+    <div class="flex-container" id="footer">
+        <img class="footer-img" width="90vw" src="images/social.jpg" alt="grocery box"/>
+        
+    </div>
+    <p>Contact us at <i>brookecarlyn@yahoo.com</i> or call (210)-623-0346</p>
+   </div>
+</body>
+</html>
